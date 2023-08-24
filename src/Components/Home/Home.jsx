@@ -2,6 +2,10 @@ import React from 'react'
 import './home.scss'
 import { GrLocation } from 'react-icons/gr'
 import { HiFilter } from 'react-icons/hi'
+import { TfiFacebook, TfiInstagram } from 'react-icons/tfi'
+import { FaTripadvisor } from 'react-icons/fa'
+import { TbApps } from 'react-icons/tb'
+import { BsListTask } from 'react-icons/bs'
 import video from '../../assets/barco.mp4'
 
 const Home = () => {
@@ -53,6 +57,19 @@ const Home = () => {
                     <div className="searchOptions flex">
                         <HiFilter className='icon' />
                         <span>MORE FILTERS</span>
+                    </div>
+                </div>
+
+                <div className="homeFooterIcons flex">
+                    <div className="rightIcons">
+                        < FaTripadvisor className="icon" />
+                        <TfiFacebook className='icon' />
+                        <TfiInstagram className='icon' />
+                    </div>
+
+                    <div className="leftIcons">
+                        <BsListTask className='icon' />
+                        <TbApps className='icon' />
                     </div>
                 </div>
             </div>
