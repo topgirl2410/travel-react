@@ -13,7 +13,7 @@ import img11 from '../../assets/img11.jpg'
 import img9 from '../../assets/img9.jpg'
 import img12 from '../../assets/img12.jpg'
 import img3 from '../../assets/img3.jpg'
-import img14 from '../../assets/img14.jpg'
+import img5 from '../../assets/img5.jpg'
 import img2 from '../../assets/img2.jpg'
 import img8 from '../../assets/img8.jpg'
 
@@ -78,7 +78,7 @@ const Data = [
     },
     {
         id: 7,
-        imgSrc: img14,
+        imgSrc: img5,
         destTitle: 'Hotel Villa del Sol',
         location: 'Menorca',
         grade: 'CULTURAL RELAX',
@@ -97,7 +97,7 @@ const Data = [
     {
         id: 9,
         imgSrc: img8,
-        destTitle: '',
+        destTitle: 'Amaneceres Inolvidables',
         location: 'Puerto Rico',
         grade: 'CULTURAL RELAX',
         fees: '2200€',
