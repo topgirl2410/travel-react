@@ -8,6 +8,16 @@ import { BsClipboardCheckFill } from 'react-icons/bs'
 // import the images
 
 import img10 from '../../assets/img10.jpg'
+import img6 from '../../assets/img6.jpg'
+import img11 from '../../assets/img11.jpg'
+import img9 from '../../assets/img9.jpg'
+import img12 from '../../assets/img12.jpg'
+import img3 from '../../assets/img3.jpg'
+import img14 from '../../assets/img14.jpg'
+import img2 from '../../assets/img2.jpg'
+import img8 from '../../assets/img8.jpg'
+
+
 
 
 // Data
@@ -20,10 +30,10 @@ const Data = [
         grade: 'CULTURAL RELAX',
         fees: '1000€',
         description: 'The epitome of romance, Bora Bora is one of the best travel destinations in the world. This place is know for its luxurius stays and adventurous activities',
-    }, {/*,
+    },
     {
         id: 2,
-        imgSrc: 'img6',
+        imgSrc: img6,
         destTitle: 'Incredible Vacations',
         location: 'Bavaro, Punta Cana',
         grade: 'CULTURAL RELAX',
@@ -32,7 +42,7 @@ const Data = [
     },
     {
         id: 3,
-        imgSrc: 'img11',
+        imgSrc: img11,
         destTitle: 'Aventuras Increibles',
         location: 'Maldivas',
         grade: 'CULTURAL RELAX',
@@ -41,7 +51,7 @@ const Data = [
     },
     {
         id: 4,
-        imgSrc: 'img9',
+        imgSrc: img9,
         destTitle: 'Playas Paridisiacas',
         location: 'Rio de Janeiro',
         grade: 'CULTURAL RELAX',
@@ -50,7 +60,7 @@ const Data = [
     },
     {
         id: 5,
-        imgSrc: 'img12',
+        imgSrc: img12,
         destTitle: 'Perfecto Relax',
         location: 'Tenerife',
         grade: 'CULTURAL RELAX',
@@ -59,7 +69,7 @@ const Data = [
     },
     {
         id: 6,
-        imgSrc: 'img3',
+        imgSrc: img3,
         destTitle: 'Aurora Boreal',
         location: 'Suiza',
         grade: 'CULTURAL RELAX',
@@ -68,7 +78,7 @@ const Data = [
     },
     {
         id: 7,
-        imgSrc: 'img14',
+        imgSrc: img14,
         destTitle: 'Hotel Villa del Sol',
         location: 'Menorca',
         grade: 'CULTURAL RELAX',
@@ -77,7 +87,7 @@ const Data = [
     },
     {
         id: 8,
-        imgSrc: 'img10',
+        imgSrc: img2,
         destTitle: 'Anixi Hotel & Studios',
         location: 'Mikonos',
         grade: 'CULTURAL RELAX',
@@ -86,13 +96,13 @@ const Data = [
     },
     {
         id: 9,
-        imgSrc: 'img8',
+        imgSrc: img8,
         destTitle: '',
         location: 'Puerto Rico',
         grade: 'CULTURAL RELAX',
         fees: '2200€',
         description: 'With an outdoor swimming pool and many other recreational facilities at your disposal, you wont have a spare minute. You also have a terrace where you can sit and contemplate the landscape. You will also find free Wi-Fi Internet access and tour assistance (ticket acquisition).',
-    }*/}
+    }
 
 ]
 
