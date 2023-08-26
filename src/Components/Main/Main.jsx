@@ -28,8 +28,8 @@ const Data = [
     {
         id: 1,
         imgSrc: img1,
-        destTitle: 'Vacations',
-        location: 'New Zeland',
+        destTitle: 'The most beautiful tree in the world',
+        location: 'Oaxaca, México',
         grade: 'CULTURAL RELAX',
         fees: '1000€',
         description: 'Nunc efficitur odio sit amet lectus faucibus dapibus. Vivamus rhoncus eros vitae elit ullamcorper, non imperdiet dui viverra. Nam eleifend eros nulla, non euismod ipsum hendrerit a. Nam a erat eu turpis tincidunt accumsan eget vel sem. Maecenas rutrum neque eu ligula interdum faucibus. Cras ac justo varius, vulputate ipsum sit amet, ultrices nibh. Vestibulum faucibus ullamcorper ex, et tempor enim. Etiam sed cursus nisl, a gravida metus. Aenean rhoncus tristique neque a venenatis.',
@@ -37,8 +37,8 @@ const Data = [
     {
         id: 2,
         imgSrc: img2,
-        destTitle: 'Incredible Vacations',
-        location: 'Bavaro, Punta Cana',
+        destTitle: 'The Ruins of Machu Pichu',
+        location: 'Perú',
         grade: 'CULTURAL RELAX',
         fees: '1200€',
         description: 'Nunc efficitur odio sit amet lectus faucibus dapibus. Vivamus rhoncus eros vitae elit ullamcorper, non imperdiet dui viverra. Nam eleifend eros nulla, non euismod ipsum hendrerit a. Nam a erat eu turpis tincidunt accumsan eget vel sem. Maecenas rutrum neque eu ligula interdum faucibus. Cras ac justo varius, vulputate ipsum sit amet, ultrices nibh. Vestibulum faucibus ullamcorper ex, et tempor enim. Etiam sed cursus nisl, a gravida metus. Aenean rhoncus tristique neque a venenatis.',
@@ -46,7 +46,7 @@ const Data = [
     {
         id: 3,
         imgSrc: img3,
-        destTitle: 'Aventuras Increibles',
+        destTitle: 'Unforgettable Adventures',
         location: 'Maldivas',
         grade: 'CULTURAL RELAX',
         fees: '1500€',
@@ -55,8 +55,8 @@ const Data = [
     {
         id: 4,
         imgSrc: img4,
-        destTitle: 'Playas Paridisiacas',
-        location: 'Rio de Janeiro',
+        destTitle: 'The Small Fortress Town',
+        location: 'Luxemburgo',
         grade: 'CULTURAL RELAX',
         fees: '2000€',
         description: 'Nunc efficitur odio sit amet lectus faucibus dapibus. Vivamus rhoncus eros vitae elit ullamcorper, non imperdiet dui viverra. Nam eleifend eros nulla, non euismod ipsum hendrerit a. Nam a erat eu turpis tincidunt accumsan eget vel sem. Maecenas rutrum neque eu ligula interdum faucibus. Cras ac justo varius, vulputate ipsum sit amet, ultrices nibh. Vestibulum faucibus ullamcorper ex, et tempor enim. Etiam sed cursus nisl, a gravida metus. Aenean rhoncus tristique neque a venenatis.',
@@ -64,7 +64,7 @@ const Data = [
     {
         id: 5,
         imgSrc: img5,
-        destTitle: 'Perfecto Relax',
+        destTitle: 'Incredible Coasts and Sunrises',
         location: 'Tenerife',
         grade: 'CULTURAL RELAX',
         fees: '2000€',
@@ -73,7 +73,7 @@ const Data = [
     {
         id: 6,
         imgSrc: img6,
-        destTitle: 'Aurora Boreal',
+        destTitle: 'Dreams Cities',
         location: 'Suiza',
         grade: 'CULTURAL RELAX',
         fees: '2500€',
@@ -82,8 +82,8 @@ const Data = [
     {
         id: 7,
         imgSrc: img7,
-        destTitle: 'Hotel Villa del Sol',
-        location: 'Menorca',
+        destTitle: 'Aurora Boreal',
+        location: 'Finlandia',
         grade: 'CULTURAL RELAX',
         fees: '1000€',
         description: 'Nunc efficitur odio sit amet lectus faucibus dapibus. Vivamus rhoncus eros vitae elit ullamcorper, non imperdiet dui viverra. Nam eleifend eros nulla, non euismod ipsum hendrerit a. Nam a erat eu turpis tincidunt accumsan eget vel sem. Maecenas rutrum neque eu ligula interdum faucibus. Cras ac justo varius, vulputate ipsum sit amet, ultrices nibh. Vestibulum faucibus ullamcorper ex, et tempor enim. Etiam sed cursus nisl, a gravida metus. Aenean rhoncus tristique neque a venenatis.',
@@ -91,8 +91,8 @@ const Data = [
     {
         id: 8,
         imgSrc: img8,
-        destTitle: 'Anixi Hotel & Studios',
-        location: 'Mikonos',
+        destTitle: 'A city in the clouds',
+        location: 'La Paz, bolivia',
         grade: 'CULTURAL RELAX',
         fees: '2000€',
         description: 'Nunc efficitur odio sit amet lectus faucibus dapibus. Vivamus rhoncus eros vitae elit ullamcorper, non imperdiet dui viverra. Nam eleifend eros nulla, non euismod ipsum hendrerit a. Nam a erat eu turpis tincidunt accumsan eget vel sem. Maecenas rutrum neque eu ligula interdum faucibus. Cras ac justo varius, vulputate ipsum sit amet, ultrices nibh. Vestibulum faucibus ullamcorper ex, et tempor enim. Etiam sed cursus nisl, a gravida metus. Aenean rhoncus tristique neque a venenatis.',
@@ -100,8 +100,8 @@ const Data = [
     {
         id: 9,
         imgSrc: img9,
-        destTitle: 'Amaneceres Inolvidables',
-        location: 'Puerto Rico',
+        destTitle: 'Lago Abraham',
+        location: 'Canadá',
         grade: 'CULTURAL RELAX',
         fees: '2200€',
         description: 'Nunc efficitur odio sit amet lectus faucibus dapibus. Vivamus rhoncus eros vitae elit ullamcorper, non imperdiet dui viverra. Nam eleifend eros nulla, non euismod ipsum hendrerit a. Nam a erat eu turpis tincidunt accumsan eget vel sem. Maecenas rutrum neque eu ligula interdum faucibus. Cras ac justo varius, vulputate ipsum sit amet, ultrices nibh. Vestibulum faucibus ullamcorper ex, et tempor enim. Etiam sed cursus nisl, a gravida metus. Aenean rhoncus tristique neque a venenatis.',
