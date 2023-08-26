@@ -1,4 +1,3 @@
-/** Colors and styLing**/
 :root {
     --PrimaryColor: hsl(199, 100%, 33%);
     --SecondaryColor: hsl(187, 85%, 43%);
@@ -8,9 +7,10 @@
     --textColor: hsl(240, 4%, 36%);
     --whiteColorDeam: hsl(0, 0%, 93%);
     --greyText: rgb(190, 190, 190);
-    --inputColor: rgb(239, 239, 239);
+    --inputColor: rgb(239. 239, 239);
     --bodyColor: rgb(240, 240, 246);
     --cardBG: rgb(225, 225, 235);
+    --cardHover: rgb(255, 255, 255);
 }
 
 .footer {
@@ -27,10 +27,9 @@
         height: 100%;
         width: 100%;
 
-        .video {
+        video {
             height: 100%;
             object-fit: cover;
-
         }
 
         &::after {
@@ -54,6 +53,7 @@
         justify-content: center;
         flex-direction: column;
         margin: auto;
+        row-gap: 2rem;
         z-index: 100;
 
         .contactDiv {
@@ -64,7 +64,7 @@
             .text {
                 small {
                     font-size: 13px;
-                    font-weight: 400;
+                    font-weight: 600;
                     color: var(--whiteColor);
                 }
 
@@ -111,7 +111,6 @@
         .footerCard {
             position: relative;
             padding: 1rem 1rem 4rem;
-            margin-top: 1.5rem;
             gap: 2rem;
             border-radius: 1rem;
             background: var(--bodyColor);
@@ -144,6 +143,7 @@
 
             .footerParagraph {
                 font-size: 13px;
+                font-weight: 600;
                 color: var(--textColor);
             }
 
@@ -152,7 +152,7 @@
 
                 .icon {
                     color: var(--blackColor);
-                    font-size: 30px;
+                    font-size: 20px;
 
                     &:hover {
                         color: var(--PrimaryColor);
@@ -177,6 +177,7 @@
 
                     .footerList {
                         font-size: 15px;
+                        font-weight: 600;
                         color: var(--textColor);
                         transition: .3s ease-in-out;
 
@@ -191,6 +192,7 @@
 
                             .icon {
                                 color: var(--SecondaryColor);
+
                             }
                         }
                     }
@@ -200,12 +202,12 @@
             .footerDiv {
                 flex-direction: column;
                 position: absolute;
-                top: auto;
                 bottom: 0;
                 left: 0;
                 right: 0;
                 background: var(--SecondaryColor);
-                padding: .2rem 3rem;
+                padding: .5rem 2rem;
+                font-weight: 600;
 
                 small {
                     font-size: 10px;
@@ -216,7 +218,6 @@
     }
 }
 
-// Media Queries 
 @media screen and (min-width: 500px) {
     .footer {
         .secContent {
@@ -265,7 +266,7 @@
     }
 }
 
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 840px) {
     .footer {
         padding: 5rem 0;
 
@@ -317,8 +318,6 @@
                     }
                 }
             }
-
-
         }
     }
 }
